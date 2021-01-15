@@ -1,7 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { App } from './App';
+import Counter from './Counter';
 
-ReactDOM.render(
-  <App compiler="TypeScript" framework="React" />,
-  document.getElementById('app'));
+ReactDOM.render(<Counter startNumber={4} />, document.getElementById('app'));
